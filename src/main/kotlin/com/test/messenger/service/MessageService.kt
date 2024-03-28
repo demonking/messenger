@@ -1,7 +1,7 @@
-package com.test.microservice.messager.service
+package com.test.messenger.service
 
-import com.test.microservice.messager.data.Message
-import com.test.microservice.messager.repository.MessageRepository
+import com.test.messenger.data.Message
+import com.test.messenger.repository.MessageRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 

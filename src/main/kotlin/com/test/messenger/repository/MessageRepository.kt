@@ -1,6 +1,6 @@
-package com.test.microservice.messager.repository
+package com.test.messenger.repository
 
-import com.test.microservice.messager.data.Message
+import com.test.messenger.data.Message
 import org.springframework.data.mongodb.repository.MongoRepository
 
 interface MessageRepository : MongoRepository<Message, String>{

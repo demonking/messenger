@@ -1,13 +1,11 @@
-package com.test.microservice.messager.data
+package com.test.messenger.data
 
 import org.bson.types.ObjectId
-import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document
 
-@Document("User")
+@Document("users")
 data class User(
-    @Id
-    val id: ObjectId = ObjectId(),
+    var id: ObjectId,
     val name: String,
     val email: String,
 )

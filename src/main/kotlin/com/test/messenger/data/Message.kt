@@ -1,17 +1,14 @@
-package com.test.microservice.messager.data
+package com.test.messenger.data
 
 import org.bson.types.ObjectId
-import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document
-import java.util.Date
+import java.util.*
 
-@Document("Message")
+@Document("messages")
 data class Message(
-    @Id
-    val id: ObjectId = ObjectId(),
+    val id: ObjectId,
     val text: String,
     val sender: User,
     val receiver: User,
     var sendDate: Date = Date(),
-
 )

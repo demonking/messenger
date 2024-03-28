@@ -1,10 +1,10 @@
-package com.test.microservice
+package com.test.messenger
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class MicroserviceApplicationTests {
+class MessengerApplicationTests {
 
 	@Test
 	fun contextLoads() {
