@@ -1,2 +1,2 @@
-# microservice
-chat as a microservice
+# messenger
+small project for testing out springboot with kotlin
